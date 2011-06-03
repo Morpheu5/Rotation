@@ -13,7 +13,12 @@
 		A3C48B5F1398EC0A007E4A98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3C48B5D1398EC0A007E4A98 /* InfoPlist.strings */; };
 		A3C48B621398EC0A007E4A98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C48B611398EC0A007E4A98 /* main.m */; };
 		A3C48B651398EC0A007E4A98 /* RotationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C48B641398EC0A007E4A98 /* RotationAppDelegate.m */; };
-		A3C48B681398EC0A007E4A98 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C48B661398EC0A007E4A98 /* MainWindow.xib */; };
+		A3C48B711398EC36007E4A98 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C48B6F1398EC36007E4A98 /* FirstViewController.m */; };
+		A3C48B721398EC36007E4A98 /* First.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C48B701398EC36007E4A98 /* First.xib */; };
+		A3C48BB41398F82B007E4A98 /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C48BB31398F82B007E4A98 /* Application.xib */; };
+		A3C48BB81398F94E007E4A98 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C48BB61398F94D007E4A98 /* SecondViewController.m */; };
+		A3C48BB91398F94E007E4A98 /* Second.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C48BB71398F94D007E4A98 /* Second.xib */; };
+		A3C48BBC1398FDC9007E4A98 /* NavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C48BBB1398FDC9007E4A98 /* NavigationControllerDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +26,21 @@
 		A3C48B541398EC0A007E4A98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3C48B561398EC0A007E4A98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3C48B581398EC0A007E4A98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A3C48B5C1398EC0A007E4A98 /* Rotation-Info.plist */ = {isa = PBXFileReference; path = "Rotation-Info.plist"; sourceTree = "<group>"; };
+		A3C48B5C1398EC0A007E4A98 /* Rotation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rotation-Info.plist"; sourceTree = "<group>"; };
 		A3C48B5E1398EC0A007E4A98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A3C48B601398EC0A007E4A98 /* Rotation-Prefix.pch */ = {isa = PBXFileReference; path = "Rotation-Prefix.pch"; sourceTree = "<group>"; };
+		A3C48B601398EC0A007E4A98 /* Rotation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rotation-Prefix.pch"; sourceTree = "<group>"; };
 		A3C48B611398EC0A007E4A98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A3C48B631398EC0A007E4A98 /* RotationAppDelegate.h */ = {isa = PBXFileReference; path = RotationAppDelegate.h; sourceTree = "<group>"; };
+		A3C48B631398EC0A007E4A98 /* RotationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationAppDelegate.h; sourceTree = "<group>"; };
 		A3C48B641398EC0A007E4A98 /* RotationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationAppDelegate.m; sourceTree = "<group>"; };
-		A3C48B671398EC0A007E4A98 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A3C48B6E1398EC36007E4A98 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A3C48B6F1398EC36007E4A98 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A3C48B701398EC36007E4A98 /* First.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = First.xib; sourceTree = "<group>"; };
+		A3C48BB31398F82B007E4A98 /* Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
+		A3C48BB51398F94D007E4A98 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A3C48BB61398F94D007E4A98 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A3C48BB71398F94D007E4A98 /* Second.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Second.xib; sourceTree = "<group>"; };
+		A3C48BBA1398FDC9007E4A98 /* NavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationControllerDelegate.h; sourceTree = "<group>"; };
+		A3C48BBB1398FDC9007E4A98 /* NavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +89,16 @@
 			children = (
 				A3C48B631398EC0A007E4A98 /* RotationAppDelegate.h */,
 				A3C48B641398EC0A007E4A98 /* RotationAppDelegate.m */,
-				A3C48B661398EC0A007E4A98 /* MainWindow.xib */,
 				A3C48B5B1398EC0A007E4A98 /* Supporting Files */,
+				A3C48B6E1398EC36007E4A98 /* FirstViewController.h */,
+				A3C48B6F1398EC36007E4A98 /* FirstViewController.m */,
+				A3C48B701398EC36007E4A98 /* First.xib */,
+				A3C48BB31398F82B007E4A98 /* Application.xib */,
+				A3C48BB51398F94D007E4A98 /* SecondViewController.h */,
+				A3C48BB61398F94D007E4A98 /* SecondViewController.m */,
+				A3C48BB71398F94D007E4A98 /* Second.xib */,
+				A3C48BBA1398FDC9007E4A98 /* NavigationControllerDelegate.h */,
+				A3C48BBB1398FDC9007E4A98 /* NavigationControllerDelegate.m */,
 			);
 			path = Rotation;
 			sourceTree = "<group>";
@@ -144,7 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3C48B5F1398EC0A007E4A98 /* InfoPlist.strings in Resources */,
-				A3C48B681398EC0A007E4A98 /* MainWindow.xib in Resources */,
+				A3C48B721398EC36007E4A98 /* First.xib in Resources */,
+				A3C48BB41398F82B007E4A98 /* Application.xib in Resources */,
+				A3C48BB91398F94E007E4A98 /* Second.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +180,9 @@
 			files = (
 				A3C48B621398EC0A007E4A98 /* main.m in Sources */,
 				A3C48B651398EC0A007E4A98 /* RotationAppDelegate.m in Sources */,
+				A3C48B711398EC36007E4A98 /* FirstViewController.m in Sources */,
+				A3C48BB81398F94E007E4A98 /* SecondViewController.m in Sources */,
+				A3C48BBC1398FDC9007E4A98 /* NavigationControllerDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,14 +195,6 @@
 				A3C48B5E1398EC0A007E4A98 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A3C48B661398EC0A007E4A98 /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3C48B671398EC0A007E4A98 /* en */,
-			);
-			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -223,7 +241,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rotation/Rotation-Prefix.pch";
 				INFOPLIST_FILE = "Rotation/Rotation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -236,7 +256,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rotation/Rotation-Prefix.pch";
 				INFOPLIST_FILE = "Rotation/Rotation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
